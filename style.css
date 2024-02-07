@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #073763; 
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #073763;
+   
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 400px;
+    height: 150px;
+    margin: 0 auto; 
+    display: block; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #C69819; 
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    background-color: #073763;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #073763;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #073763;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d8ee9;
+}
+.register-button {
+    background-color: #2219a0; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.register-button:hover {
+    background-color: #2d8ee9; 
+}
+
+
+.login-button {
+    background-color: #2219a0; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.login-button:hover {
+    background-color: #2d8ee9; 
+}
+.home-button {
+    background-color: #2219a0; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.home-button:hover {
+    background-color: #2d8ee9; 
+}
